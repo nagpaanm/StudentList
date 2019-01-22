@@ -14,6 +14,7 @@ public class Student {
    
     private String name;
     private int id;
+    private String DoB;
  
     public Student()
     {
@@ -44,5 +45,19 @@ public class Student {
     public int getId()
     {
         return id;
+    }
+
+    /**
+     * @return the DoB
+     */
+    public String getDoB() {
+        return DoB;
+    }
+
+    /**
+     * @param DoB the DoB to set
+     */
+    public void setDoB(String DoB) {
+        this.DoB = DoB;
     }
 }
