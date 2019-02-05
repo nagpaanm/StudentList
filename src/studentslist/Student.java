@@ -16,7 +16,7 @@ public class Student {
     private int id;
     private String DoB;
    
-    
+    private int maxHours;
     public Student()
     {
         name = "Not Set";
