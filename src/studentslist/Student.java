@@ -34,6 +34,8 @@ public class Student {
            return this.name;
      }
     
+    //the setName method was here
+    
     public void setId(int givenId)
     {
             this.id = givenId;
