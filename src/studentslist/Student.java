@@ -47,4 +47,8 @@ public class Student {
     {
         return id;
     }
+    
+    public String toString(){
+        return "Student";
+    }
 }
