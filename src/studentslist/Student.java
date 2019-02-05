@@ -28,10 +28,6 @@ public class Student {
         id = givenId;
     }
     
-    public void setName(String givenName)
-    {
-        this.name = givenName;
-    }
     
     public String getName()
     {
